@@ -1,0 +1,3150 @@
+co2(): 640
+02(): 14.53
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 643
+02(): 14.53
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 647
+02(): 14.53
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 647
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 646
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 650
+02(): 15.14
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 648
+02(): 15.00
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 649
+02(): 14.97
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 655
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 659
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 658
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 660
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.5 meters
+co2(): 661
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 657
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 660
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  7.4 meters
+co2(): 662
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 667
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 42.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 676
+02(): 15.07
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 672
+02(): 14.97
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 670
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 668
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 668
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 668
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 674
+02(): 14.56
+co(): 221
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 677
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  7.5 meters
+co2(): 678
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 681
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 679
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 678
+02(): 15.00
+co(): 221
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 677
+02(): 15.00
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 675
+02(): 14.97
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.8 meters
+co2(): 674
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 676
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.7 meters
+co2(): 677
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 680
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 676
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 678
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 686
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 689
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 693
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 689
+02(): 15.11
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 690
+02(): 14.97
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 681
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 685
+02(): 14.94
+co(): 219
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 688
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 683
+02(): 14.94
+co(): 219
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 683
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 690
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 687
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 683
+02(): 14.50
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.3 meters
+co2(): 687
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.5 meters
+co2(): 685
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 681
+02(): 15.04
+co(): 220
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  7.3 meters
+co2(): 680
+02(): 14.97
+co(): 220
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 680
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 680
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.5 meters
+co2(): 681
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 683
+02(): 14.94
+co(): 219
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 685
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 684
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 689
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 684
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 690
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 687
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 688
+02(): 15.00
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 682
+02(): 14.97
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 685
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 686
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.3 meters
+co2(): 685
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 682
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 689
+02(): 14.53
+co(): 219
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 691
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 686
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 690
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 695
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 699
+02(): 15.14
+co(): 220
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 700
+02(): 14.97
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 701
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 701
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 702
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.7 meters
+co2(): 707
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 66.20
+altitude():  8.1 meters
+co2(): 705
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 709
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 709
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 703
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 704
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 698
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 703
+02(): 15.07
+co(): 220
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 701
+02(): 14.97
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 702
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 702
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 706
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 699
+02(): 14.94
+co(): 220
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 705
+02(): 14.53
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 703
+02(): 14.56
+co(): 220
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 710
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 705
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 707
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 707
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 48.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 709
+02(): 15.00
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 710
+02(): 14.97
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 713
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 713
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 715
+02(): 14.97
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 715
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 713
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 715
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 714
+02(): 14.53
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 713
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 714
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 715
+02(): 15.17
+co(): 222
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 717
+02(): 15.00
+co(): 222
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 716
+02(): 14.97
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 715
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 715
+02(): 14.94
+co(): 221
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 716
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 66.20
+altitude():  8.6 meters
+co2(): 716
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 716
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.7 meters
+co2(): 715
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 714
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 715
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 715
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 720
+02(): 15.11
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 716
+02(): 14.97
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 718
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 718
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 719
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 718
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  7.6 meters
+co2(): 718
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 718
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 716
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 715
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 715
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 719
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 47.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 716
+02(): 15.04
+co(): 222
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 718
+02(): 14.97
+co(): 222
+
+
+Read sensor: OK
+humidity(): 42.00
+temp(): 71.60
+altitude():  8.3 meters
+co2(): 718
+02(): 14.97
+co(): 222
+
+
+Read sensor: OK
+humidity(): 42.00
+temp(): 71.60
+altitude():  8.2 meters
+co2(): 717
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 719
+02(): 14.94
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.0 meters
+co2(): 716
+02(): 14.56
+co(): 222
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 721
+02(): 14.53
+co(): 222
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 719
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 718
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.1 meters
+co2(): 722
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.8 meters
+co2(): 723
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 724
+02(): 15.17
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.9 meters
+co2(): 725
+02(): 15.07
+co(): 223
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 721
+02(): 14.97
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.7 meters
+co2(): 721
+02(): 14.97
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 721
+02(): 14.97
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 723
+02(): 14.97
+co(): 222
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 720
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 721
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 722
+02(): 14.56
+co(): 223
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 68.00
+altitude():  7.8 meters
+co2(): 721
+02(): 14.53
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.3 meters
+co2(): 719
+02(): 14.56
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 721
+02(): 14.56
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 723
+02(): 15.11
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 726
+02(): 15.00
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 726
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.7 meters
+co2(): 725
+02(): 14.97
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 724
+02(): 14.97
+co(): 223
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.9 meters
+co2(): 727
+02(): 14.97
+co(): 223
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 727
+02(): 14.56
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.7 meters
+co2(): 731
+02(): 14.56
+co(): 223
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.2 meters
+co2(): 728
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 731
+02(): 14.60
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 734
+02(): 14.60
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 733
+02(): 14.53
+co(): 224
+
+
+Read sensor: OK
+humidity(): 46.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 732
+02(): 15.07
+co(): 223
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.8 meters
+co2(): 733
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 728
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 726
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 726
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 726
+02(): 14.80
+co(): 224
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  7.9 meters
+co2(): 724
+02(): 14.53
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 726
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 724
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.5 meters
+co2(): 723
+02(): 14.53
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 721
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.4 meters
+co2(): 724
+02(): 15.21
+co(): 224
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 724
+02(): 15.04
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.9 meters
+co2(): 724
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.0 meters
+co2(): 727
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.7 meters
+co2(): 729
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 724
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 727
+02(): 14.60
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 729
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.8 meters
+co2(): 728
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.9 meters
+co2(): 722
+02(): 14.56
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 726
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.6 meters
+co2(): 727
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 73.40
+altitude():  9.1 meters
+co2(): 728
+02(): 15.11
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 727
+02(): 15.04
+co(): 224
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.1 meters
+co2(): 728
+02(): 15.00
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 728
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  8.9 meters
+co2(): 729
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.4 meters
+co2(): 726
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 32.00
+temp(): 68.00
+altitude():  9.1 meters
+co2(): 726
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 725
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 725
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  9.0 meters
+co2(): 723
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.1 meters
+co2(): 724
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 724
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 46.00
+temp(): 68.00
+altitude():  8.8 meters
+co2(): 725
+02(): 15.07
+co(): 225
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  9.0 meters
+co2(): 727
+02(): 15.00
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.3 meters
+co2(): 727
+02(): 15.00
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.4 meters
+co2(): 726
+02(): 14.97
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.4 meters
+co2(): 725
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 728
+02(): 14.97
+co(): 224
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  9.0 meters
+co2(): 727
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 726
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 731
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  9.4 meters
+co2(): 733
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 745
+02(): 14.56
+co(): 226
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 748
+02(): 15.21
+co(): 225
+
+
+Read sensor: OK
+humidity(): 42.00
+temp(): 71.60
+altitude():  9.3 meters
+co2(): 742
+02(): 15.07
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.3 meters
+co2(): 740
+02(): 15.00
+co(): 226
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.0 meters
+co2(): 734
+02(): 14.97
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 730
+02(): 14.97
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 732
+02(): 14.97
+co(): 225
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 726
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 69.80
+altitude():  9.2 meters
+co2(): 729
+02(): 14.56
+co(): 225
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 730
+02(): 14.56
+co(): 226
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  10.0 meters
+co2(): 732
+02(): 14.56
+co(): 226
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 726
+02(): 14.56
+co(): 226
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 69.80
+altitude():  8.9 meters
+co2(): 724
+02(): 14.56
+co(): 226
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 78.80
+altitude():  9.2 meters
+co2(): 727
+02(): 15.14
+co(): 226
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.5 meters
+co2(): 728
+02(): 15.04
+co(): 226
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  9.4 meters
+co2(): 726
+02(): 15.00
+co(): 226
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 728
+02(): 15.00
+co(): 226
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.3 meters
+co2(): 730
+02(): 14.97
+co(): 226
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.5 meters
+co2(): 731
+02(): 14.97
+co(): 226
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 729
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.4 meters
+co2(): 730
+02(): 14.56
+co(): 226
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 729
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.9 meters
+co2(): 729
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.8 meters
+co2(): 730
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 731
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 45.00
+temp(): 71.60
+altitude():  10.1 meters
+co2(): 729
+02(): 15.11
+co(): 227
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.0 meters
+co2(): 734
+02(): 15.04
+co(): 227
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.1 meters
+co2(): 733
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.0 meters
+co2(): 733
+02(): 15.00
+co(): 226
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.4 meters
+co2(): 731
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.6 meters
+co2(): 732
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.0 meters
+co2(): 733
+02(): 14.60
+co(): 227
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 731
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  10.2 meters
+co2(): 733
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 729
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 727
+02(): 14.60
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  10.0 meters
+co2(): 728
+02(): 15.24
+co(): 227
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 68.00
+altitude():  9.8 meters
+co2(): 727
+02(): 15.11
+co(): 227
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.1 meters
+co2(): 729
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  9.9 meters
+co2(): 733
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.4 meters
+co2(): 735
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.9 meters
+co2(): 744
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 747
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 745
+02(): 14.60
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.8 meters
+co2(): 739
+02(): 14.56
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.9 meters
+co2(): 738
+02(): 14.60
+co(): 227
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  10.0 meters
+co2(): 742
+02(): 14.56
+co(): 228
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  9.9 meters
+co2(): 755
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 75.20
+altitude():  9.9 meters
+co2(): 750
+02(): 15.17
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  9.5 meters
+co2(): 742
+02(): 15.04
+co(): 228
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.9 meters
+co2(): 737
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.0 meters
+co2(): 739
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 735
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.4 meters
+co2(): 735
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.1 meters
+co2(): 733
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.4 meters
+co2(): 730
+02(): 14.60
+co(): 227
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 69.80
+altitude():  10.0 meters
+co2(): 730
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.1 meters
+co2(): 729
+02(): 14.56
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 727
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.1 meters
+co2(): 731
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 44.00
+temp(): 68.00
+altitude():  9.2 meters
+co2(): 731
+02(): 15.11
+co(): 228
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.0 meters
+co2(): 729
+02(): 15.07
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 732
+02(): 15.00
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 729
+02(): 15.00
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  9.6 meters
+co2(): 730
+02(): 15.00
+co(): 227
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  9.9 meters
+co2(): 734
+02(): 15.04
+co(): 227
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  10.1 meters
+co2(): 737
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  9.7 meters
+co2(): 736
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.2 meters
+co2(): 731
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.4 meters
+co2(): 732
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  9.7 meters
+co2(): 730
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 734
+02(): 15.28
+co(): 228
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  10.2 meters
+co2(): 736
+02(): 15.07
+co(): 228
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.1 meters
+co2(): 732
+02(): 15.04
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.0 meters
+co2(): 731
+02(): 15.00
+co(): 228
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.4 meters
+co2(): 729
+02(): 15.00
+co(): 228
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 728
+02(): 15.00
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.2 meters
+co2(): 728
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  10.4 meters
+co2(): 727
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.0 meters
+co2(): 726
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.4 meters
+co2(): 728
+02(): 14.60
+co(): 228
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 69.80
+altitude():  10.8 meters
+co2(): 730
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 37.00
+temp(): 68.00
+altitude():  10.3 meters
+co2(): 728
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 78.80
+altitude():  10.1 meters
+co2(): 731
+02(): 15.17
+co(): 228
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 71.60
+altitude():  10.9 meters
+co2(): 730
+02(): 15.07
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.8 meters
+co2(): 731
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 729
+02(): 15.04
+co(): 228
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.7 meters
+co2(): 730
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 731
+02(): 15.00
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 731
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  11.1 meters
+co2(): 735
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.7 meters
+co2(): 733
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.3 meters
+co2(): 737
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 734
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 732
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 45.00
+temp(): 71.60
+altitude():  10.1 meters
+co2(): 734
+02(): 15.14
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 732
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 71.60
+altitude():  10.5 meters
+co2(): 733
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.4 meters
+co2(): 729
+02(): 15.00
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.4 meters
+co2(): 729
+02(): 15.00
+co(): 229
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 71.60
+altitude():  10.3 meters
+co2(): 728
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 32.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 731
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.7 meters
+co2(): 730
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.8 meters
+co2(): 735
+02(): 14.60
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.7 meters
+co2(): 733
+02(): 14.63
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.0 meters
+co2(): 735
+02(): 14.60
+co(): 230
+
+
+Read sensor: OK
+humidity(): 36.00
+temp(): 68.00
+altitude():  10.9 meters
+co2(): 736
+02(): 15.28
+co(): 230
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.1 meters
+co2(): 753
+02(): 15.11
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.5 meters
+co2(): 748
+02(): 15.04
+co(): 230
+
+
+Read sensor: OK
+humidity(): 41.00
+temp(): 71.60
+altitude():  10.4 meters
+co2(): 747
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 35.00
+temp(): 68.00
+altitude():  10.4 meters
+co2(): 736
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 39.00
+temp(): 71.60
+altitude():  10.7 meters
+co2(): 733
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 40.00
+temp(): 71.60
+altitude():  10.9 meters
+co2(): 732
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 32.00
+temp(): 69.80
+altitude():  10.8 meters
+co2(): 735
+02(): 14.60
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.7 meters
+co2(): 730
+02(): 14.67
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.6 meters
+co2(): 732
+02(): 14.63
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.4 meters
+co2(): 735
+02(): 14.63
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.8 meters
+co2(): 732
+02(): 14.63
+co(): 230
+
+
+Read sensor: OK
+humidity(): 38.00
+temp(): 77.00
+altitude():  10.9 meters
+co2(): 730
+02(): 15.21
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  10.6 meters
+co2(): 728
+02(): 15.07
+co(): 230
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  10.8 meters
+co2(): 730
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  11.2 meters
+co2(): 732
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 68.00
+altitude():  11.0 meters
+co2(): 731
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 68.00
+altitude():  11.0 meters
+co2(): 730
+02(): 15.04
+co(): 229
+
+
+Read sensor: OK
+humidity(): 25.00
+temp(): 69.80
+altitude():  11.1 meters
+co2(): 732
+02(): 14.63
+co(): 230
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  11.0 meters
+co2(): 732
+02(): 14.60
+co(): 230
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  10.7 meters
+co2(): 732
+02(): 14.60
+co(): 230
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  10.8 meters
+co2(): 736
+02(): 14.63
+co(): 230
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  10.7 meters
+co2(): 735
+02(): 14.46
+co(): 234
+
+
+Read sensor: OK
+humidity(): 34.00
+temp(): 69.80
+altitude():  11.4 meters
+co2(): 735
+02(): 14.46
+co(): 233
+
+
+Read sensor: OK
+humidity(): 43.00
+temp(): 68.00
+altitude():  11.0 meters
+co2(): 732
+02(): 15.00
+co(): 232
+
+
+Read sensor: OK
+humidity(): 32.00
+temp(): 69.80
+altitude():  10.9 meters
+co2(): 734
+02(): 14.90
+co(): 231
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  11.0 meters
+co2(): 732
+02(): 14.87
+co(): 230
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  10.9 meters
+co2(): 731
+02(): 14.87
+co(): 229
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  10.9 meters
+co2(): 732
+02(): 14.87
+co(): 228
+
+
+Read sensor: OK
+humidity(): 33.00
+temp(): 69.80
+altitude():  10.8 meters
+co2(): 732
+02(): 14.87
+co(): 228
+
+
+Read sensor: OK
+humidity(): 31.00
+temp(): 69.80
+altitude():  10.7 meters
