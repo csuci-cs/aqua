@@ -61,6 +61,8 @@ void setup() {
 }
 
 void loop() {
+  Serial.println("\n");
+
   int co2 = readCO2();
   if (co2 != ERR_INT) {
     Serial.print("co2(): ");
@@ -72,8 +74,6 @@ void loop() {
 
   Serial.print("co(): ");
   Serial.println(readCO());
-
-  Serial.println("\n");
 
   int chk = DHT11.read11(DHT11PIN);
 
@@ -100,8 +100,7 @@ void loop() {
   }
 
   Serial.print(currentAltitude, 1);
-  Serial.println(" meters");
-
+  
   delay(10000);
 }
 
