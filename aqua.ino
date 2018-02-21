@@ -65,7 +65,7 @@ void setup() {
 }
 
 void loop() {
-  if (dataRecieve()) {
+  if (readCO2()) {
     //Serial.print("Temperature: ");
     //Serial.print(temperature);
     Serial.print("co2(): ");
@@ -128,7 +128,7 @@ double fahrenheit(double celsius) {
 }
 
 //for CO2
-bool dataRecieve(void) {
+bool readCO2(void) {
   byte data[9];
   int i = 0;
 
