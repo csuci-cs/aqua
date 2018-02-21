@@ -1,11 +1,6 @@
 /*
-  This test code is write for Arduino AVR Series(UNO, Leonardo, Mega)
-  If you want to use with LinkIt ONE, please connect the module to D0/1 and modify:
-
-  // #include <SoftwareSerial.h>
-  // SoftwareSerial s_serial(2, 3);      // TX, RX
-
-  #define sensor Serial1
+  UNIV 492
+  github.com/csuci-cs/aqua
 */
 
 #include <SFE_BMP180.h>
