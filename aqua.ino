@@ -43,18 +43,17 @@ int CO2PPM;
 int value;
 
 void setup() {
-    sensor.begin(9600);
-    Serial.begin(9600);
-    Serial.println("get a 'g', begin to read from sensor!");
-    Serial.println("********************************************************");
-    Serial.println();
+  sensor.begin(9600);
+  Serial.begin(9600);
+  Serial.println("get a 'g', begin to read from sensor!");
+  Serial.println("********************************************************");
+  Serial.println();
 
   if (pressure.begin()) {
     Serial.println("BMP180 init success");
   } else {
     // Oops, something went wrong, this is usually a connection problem,
     // see the comments at the top of this sketch for the proper connections.
-
     Serial.println("BMP180 init fail (disconnected?)\n\n");
     while(1); // Pause forever.
   }
@@ -68,30 +67,30 @@ void setup() {
 }
 
 void loop() {
-    if (dataRecieve()) {
-        //Serial.print("Temperature: ");
-        //Serial.print(temperature);
-        Serial.print("co2(): ");
-        Serial.println(CO2PPM);
-        //Serial.println("");
-    }
+  if (dataRecieve()) {
+    //Serial.print("Temperature: ");
+    //Serial.print(temperature);
+    Serial.print("co2(): ");
+    Serial.println(CO2PPM);
+    //Serial.println("");
+  }
 
 
-    float Vout =0;
-    //Serial.print("Vout =");
+  float Vout =0;
+  //Serial.print("Vout =");
 
-    Vout = readO2Vout();
-    //Serial.print(Vout);
-    Serial.print("02(): ");
-    Serial.println(readConcentration());
-
-
-    value= analogRead(AOUTpin);//reads the analaog value from the CO sensor's AOUT pin
-    Serial.print("co(): ");
-    Serial.println(value);//prints the CO value
+  Vout = readO2Vout();
+  //Serial.print(Vout);
+  Serial.print("02(): ");
+  Serial.println(readConcentration());
 
 
-    Serial.println("\n");
+  value= analogRead(AOUTpin);//reads the analaog value from the CO sensor's AOUT pin
+  Serial.print("co(): ");
+  Serial.println(value);//prints the CO value
+
+
+  Serial.println("\n");
 
   int chk = DHT11.read11(DHT11PIN);
 
@@ -138,62 +137,62 @@ void loop() {
 
 //for CO2
 bool dataRecieve(void) {
-    byte data[9];
-    int i = 0;
+  byte data[9];
+  int i = 0;
 
-    //transmit command data
-    for(i = 0; i < sizeof(cmd_get_sensor); i++) {
-        sensor.write(cmd_get_sensor[i]);
+  //transmit command data
+  for(i = 0; i < sizeof(cmd_get_sensor); i++) {
+    sensor.write(cmd_get_sensor[i]);
+  }
+  delay(10);
+  //begin reveiceing data
+  if(sensor.available()) {
+    while(sensor.available()) {
+      for(int i = 0; i < 9; i++) {
+        data[i] = sensor.read();
+      }
     }
-    delay(10);
-    //begin reveiceing data
-    if(sensor.available()) {
-        while(sensor.available()) {
-            for(int i = 0; i < 9; i++) {
-                data[i] = sensor.read();
-            }
-        }
-    }
+  }
 
-    for(int j=0; j<9; j++) {
- //       Serial.print(data[j]);
- //       Serial.print(" ");
-    }
- //   Serial.println("");
+  for(int j=0; j<9; j++) {
+  //       Serial.print(data[j]);
+  //       Serial.print(" ");
+  }
+  //   Serial.println("");
 
-    if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8]) {
-        return false;
-    }
+  if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8]) {
+    return false;
+  }
 
-    CO2PPM = (int)data[2] * 256 + (int)data[3];
-    temperature = (int)data[4] - 40;
+  CO2PPM = (int)data[2] * 256 + (int)data[3];
+  temperature = (int)data[4] - 40;
 
-    return true;
+  return true;
 }
 
 //for 02
 float readO2Vout() {
-    long sum = 0;
-    for(int i = 0; i < 32; i++) {
-        sum += analogRead(pinAdc);
-    }
+  long sum = 0;
+  for(int i = 0; i < 32; i++) {
+    sum += analogRead(pinAdc);
+  }
 
-    sum >>= 5;
+  sum >>= 5;
 
-    float MeasuredVout = sum * (VRefer / 1023.0);
-    return MeasuredVout;
+  float MeasuredVout = sum * (VRefer / 1023.0);
+  return MeasuredVout;
 }
 
 // for 02
 float readConcentration() {
-    // Vout samples are with reference to 3.3V
-    float MeasuredVout = readO2Vout();
+  // Vout samples are with reference to 3.3V
+  float MeasuredVout = readO2Vout();
 
-    //float Concentration = FmultiMap(MeasuredVout, VoutArray,O2ConArray, 6);
-    //when its output voltage is 2.0V,
-    float Concentration = MeasuredVout * 0.21 / 2.0;
-    float Concentration_Percentage=Concentration*100;
-    return Concentration_Percentage;
+  //float Concentration = FmultiMap(MeasuredVout, VoutArray,O2ConArray, 6);
+  //when its output voltage is 2.0V,
+  float Concentration = MeasuredVout * 0.21 / 2.0;
+  float Concentration_Percentage=Concentration*100;
+  return Concentration_Percentage;
 }
 
 double fahrenheit(double celsius) {
