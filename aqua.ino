@@ -45,9 +45,6 @@ int temperature;
 void setup() {
   sensor.begin(9600);
   Serial.begin(9600);
-  Serial.println("get a 'g', begin to read from sensor!");
-  Serial.println("********************************************************");
-  Serial.println();
 
   if (!pressure.begin()) {
     Serial.println("ERROR: BMP180 init fail (disconnected?)\n\n");
@@ -56,9 +53,9 @@ void setup() {
 
   // Get the baseline pressure:
   baselinePressure = readPressure();
+
   Serial.print("baseline pressure: ");
   Serial.print(baselinePressure);
-  Serial.println(" mb"); // What is mb? megabytes? Should this be m for meters?
 }
 
 void loop() {
@@ -68,13 +65,13 @@ void loop() {
   if (co2 != ERR_INT) {
     Serial.println("ERROR: some error"); break;
   }
-  Serial.print("co2(): ");
+  Serial.print("co2: ");
   Serial.println(co2);
 
-  Serial.print("02(): ");
+  Serial.print("o2: ");
   Serial.println(readO2());
 
-  Serial.print("co(): ");
+  Serial.print("co: ");
   Serial.println(readCO());
 
   int chk = DHT11.read11(DHT11PIN);
@@ -86,17 +83,17 @@ void loop() {
     default: Serial.println("ERROR: DHT11 unknown error"); break;
   }
 
-  Serial.print("humidity(): ");
+  Serial.print("humidity: ");
   Serial.println((float)DHT11.humidity, 2);
 
 
-  Serial.print("temp(): ");
+  Serial.print("temperature: ");
   Serial.println(DHT11.temperature, 2);
 
   double currentPressure = readPressure();
   double currentAltitude = pressure.altitude(currentPressure, baselinePressure);
 
-  Serial.print("altitude(): ");
+  Serial.print("altitude: ");
   if (currentAltitude >= 0.0) {
     Serial.print(" "); // add a space for positive numbers
   }
