@@ -138,9 +138,10 @@ int readCO () {
   return analogRead(AOUT_PIN);
 }
 
-// readO2Vout
+// readO2
 // TODO: What are the units?
-float readO2Vout() {
+float readO2() {
+  // part 1: calculate voltageOut
   long sum = 0;
 
   for(int i = 0; i < 32; i++) {
@@ -148,16 +149,11 @@ float readO2Vout() {
   }
 
   sum >>= 5;
-  return sum * (VOLTAGE_REFERENCE / 1023.0);
-}
+  float voltageOut = sum * (VOLTAGE_REFERENCE / 1023.0);
 
-// readO2
-// TODO: What are the units?
-float readO2() {
-  // Vout samples are with reference to 3.3V
-  float voltageOut = readO2Vout();
+  // part 2: calculate concentration
 
-  // when its output voltage is 2.0V,
+  // when its output voltage is 2.0V, // <- what does this mean?
   float concentration = voltageOut * 0.21 / 2.0;
   return concentration * 100;
 }
