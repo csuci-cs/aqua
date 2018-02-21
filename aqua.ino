@@ -95,7 +95,7 @@ void loop() {
 
 
   Serial.print("temp(): ");
-  Serial.println(fahrenheit(DHT11.temperature), 2);
+  Serial.println(DHT11.temperature, 2);
 
   // Get a new pressure reading:
   double currentPressure = readPressure();
@@ -111,15 +111,8 @@ void loop() {
 
   Serial.print(currentAltitude, 1);
   Serial.println(" meters");
-  // if (a >= 0.0) Serial.print(" "); // add a space for positive numbers
-  // Serial.print(a*3.28084,0);
-  // Serial.println(" feet");
 
   delay(10000);
-}
-
-double fahrenheit(double celsius) {
-  return 1.8 * celsius + 32;
 }
 
 //for CO2
