@@ -24,6 +24,7 @@ const int ERR_INT ~(1 << 31);
 
 #include <SoftwareSerial.h>
 SoftwareSerial s_serial(2, 3); // TX, RX
+// TODO sensor is unclear name... what is the actual sensor name?
 #define sensor s_serial
 
 const unsigned char cmd_get_sensor[] = {
@@ -49,7 +50,7 @@ void setup() {
   Serial.println();
 
   if (!pressure.begin()) {
-    Serial.println("BMP180 init fail (disconnected?)\n\n");
+    Serial.println("ERROR: BMP180 init fail (disconnected?)\n\n");
     while(1); // Pause forever.
   }
 
@@ -65,9 +66,10 @@ void loop() {
 
   int co2 = readCO2();
   if (co2 != ERR_INT) {
-    Serial.print("co2(): ");
-    Serial.println(co2);
+    Serial.println("ERROR: some error"); break;
   }
+  Serial.print("co2(): ");
+  Serial.println(co2);
 
   Serial.print("02(): ");
   Serial.println(readO2());
@@ -79,9 +81,9 @@ void loop() {
 
   switch (chk) {
     case 0: break; // only complain to the log if there is an error
-    case -1: Serial.println("checksum error"); break;
-    case -2: Serial.println("time out error"); break;
-    default: Serial.println("unknown error"); break;
+    case -1: Serial.println("ERROR: DHT11 checksum error"); break;
+    case -2: Serial.println("ERROR: DHT11 time out error"); break;
+    default: Serial.println("ERROR: DHT11 unknown error"); break;
   }
 
   Serial.print("humidity(): ");
@@ -100,7 +102,7 @@ void loop() {
   }
 
   Serial.print(currentAltitude, 1);
-  
+
   delay(10000);
 }
 
@@ -175,7 +177,7 @@ double readPressure() {
   // If request is unsuccessful, 0 is returned.
   int temperatureWait = pressure.startTemperature()
   if (temperatureWait == 0) {
-    Serial.println("error retrieving temperature wait\n");
+    Serial.println("ERROR: SFE_BMP180 unsuccessful temperature measurement start\n");
     return ERR_FLOAT;
   }
   delay(temperatureWait);
@@ -185,7 +187,7 @@ double readPressure() {
   // Use '&T' to provide the address of T to the function.
   // Function returns 1 if successful, 0 if failure.
   if (!pressure.getTemperature(t)) {
-    Serial.println("error starting temperature measurement\n")
+    Serial.println("ERROR: SFE_BMP180 failed to get temperature\n")
     return ERR_FLOAT;
   }
 
@@ -195,7 +197,7 @@ double readPressure() {
   // If request is unsuccessful, 0 is returned.
   int pressureWait = pressure.startPressure(3)
   if (pressureWait == 0) {
-    Serial.println("error starting pressure wait\n");
+    Serial.println("ERROR: SFE_BMP180 unsuccessful temperature pressure start\n");
     return ERR_FLOAT;
   }
   delay(pressureWait);
@@ -207,7 +209,7 @@ double readPressure() {
   // (If temperature is stable, you can do one temperature measurement for a number of pressure measurements.)
   // Function returns 1 if successful, 0 if failure.
   if (!pressure.getPressure(p,t)) {
-    Serial.println("error retrieving pressure measurement\n");
+    Serial.println("ERROR: SFE_BMP180 failed to get pressure\n");
     return ERR_FLOAT;
   }
   return p;
