@@ -51,7 +51,7 @@ void setup() {
 void loop() {
   int co2 = readCO2();
   if (co2 != ERR_INT) {
-    Serial.println("ERROR: some error");
+    Serial.println("ERROR: some error"); // TODO needs descriptive error message
   }
   Serial.print("co2: ");
   Serial.println(co2);
