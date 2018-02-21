@@ -18,7 +18,9 @@ double baseline; // baseline pressure
 #define DHT11PIN 4
 
 dht DHT11;
-#define ERR_FLOAT 3.4028235E+38;
+const float ERR_FLOAT 3.4028235E+38;
+const int ERR_INT ~(1 << 31);
+
 
 #include <SoftwareSerial.h>
 SoftwareSerial s_serial(2, 3); // TX, RX
@@ -38,7 +40,6 @@ const int AOUT_PIN = A0;
 
 unsigned char dataRevice[9];
 int temperature;
-int CO2PPM;
 
 void setup() {
   sensor.begin(9600);
@@ -65,12 +66,10 @@ void setup() {
 }
 
 void loop() {
-  if (readCO2()) {
-    //Serial.print("Temperature: ");
-    //Serial.print(temperature);
+  int co2 = readCO2();
+  if (co2 != ERR_INT) {
     Serial.print("co2(): ");
-    Serial.println(CO2PPM);
-    //Serial.println("");
+    Serial.println(co2);
   }
 
   Serial.print("02(): ");
@@ -124,7 +123,7 @@ double fahrenheit(double celsius) {
 }
 
 //for CO2
-bool readCO2(void) {
+int readCO2() {
   byte data[9];
   int i = 0;
 
@@ -143,13 +142,11 @@ bool readCO2(void) {
   }
 
   if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8]) {
-    return false;
+    return ERR_INT;
   }
 
-  CO2PPM = (int)data[2] * 256 + (int)data[3];
   temperature = (int)data[4] - 40;
-
-  return true;
+  return (int)data[2] * 256 + (int)data[3];
 }
 
 
