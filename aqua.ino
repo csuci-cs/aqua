@@ -196,7 +196,7 @@ double readPressure() {
   // If request is unsuccessful, 0 is returned.
   int temperatureWait = pressure.startTemperature()
   if (temperatureWait == 0) {
-    Serial.println("error retrieving temperature measurement\n");
+    Serial.println("error retrieving temperature wait\n");
     return ERR_FLOAT;
   }
   delay(temperatureWait);
@@ -216,7 +216,7 @@ double readPressure() {
   // If request is unsuccessful, 0 is returned.
   int pressureWait = pressure.startPressure(3)
   if (pressureWait == 0) {
-    Serial.println("error starting pressure measurement\n");
+    Serial.println("error starting pressure wait\n");
     return ERR_FLOAT;
   }
   delay(pressureWait);
