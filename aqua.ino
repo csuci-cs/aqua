@@ -18,6 +18,7 @@ double baseline; // baseline pressure
 #define DHT11PIN 4
 
 dht DHT11;
+#define ERR_FLOAT 3.4028235E+38;
 
 #include <SoftwareSerial.h>
 SoftwareSerial s_serial(2, 3);      // TX, RX
@@ -206,7 +207,7 @@ double getPressure() {
   int temperatureWait = pressure.startTemperature()
   if (temperatureWait == 0) {
     Serial.println("error retrieving temperature measurement\n");
-    return 0.0;
+    return ERR_FLOAT;
   }
   delay(temperatureWait);
 
@@ -216,7 +217,7 @@ double getPressure() {
   // Function returns 1 if successful, 0 if failure.
   if (!pressure.getTemperature(t)) {
     Serial.println("error starting temperature measurement\n")
-    return 0.0;
+    return ERR_FLOAT;
   }
 
   // Start a pressure measurement:
@@ -226,7 +227,7 @@ double getPressure() {
   int pressureWait = pressure.startPressure(3)
   if (pressureWait == 0) {
     Serial.println("error starting pressure measurement\n");
-    return 0.0;
+    return ERR_FLOAT;
   }
   delay(pressureWait);
 
@@ -238,7 +239,7 @@ double getPressure() {
   // Function returns 1 if successful, 0 if failure.
   if (!pressure.getPressure(p,t)) {
     Serial.println("error retrieving pressure measurement\n");
-    return 0.0;
+    return ERR_FLOAT;
   }
   return p;
 }
