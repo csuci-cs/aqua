@@ -12,8 +12,8 @@ double baselinePressure;
 #define DHT11PIN 4
 dht DHT11;
 
-const float ERR_FLOAT 3.4028235E+38;
-const int ERR_INT ~(1 << 31);
+const float ERR_FLOAT = 3.4028235E+38; // max values
+const int ERR_INT = 2^15 - 1; // max values
 
 #include <SoftwareSerial.h>
 SoftwareSerial s_serial(2, 3); // TX, RX
@@ -52,7 +52,7 @@ void loop() {
 
   int co2 = readCO2();
   if (co2 != ERR_INT) {
-    Serial.println("ERROR: some error"); break;
+    Serial.println("ERROR: some error");
   }
   Serial.print("co2: ");
   Serial.println(co2);
@@ -148,7 +148,7 @@ double readPressure() {
   // Start a temperature measurement:
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
-  int temperatureWait = pressure.startTemperature()
+  int temperatureWait = pressure.startTemperature();
   if (temperatureWait == 0) {
     Serial.println("ERROR: SFE_BMP180 unsuccessful temperature measurement start\n");
     return ERR_FLOAT;
@@ -160,7 +160,7 @@ double readPressure() {
   // Use '&T' to provide the address of T to the function.
   // Function returns 1 if successful, 0 if failure.
   if (!pressure.getTemperature(t)) {
-    Serial.println("ERROR: SFE_BMP180 failed to get temperature\n")
+    Serial.println("ERROR: SFE_BMP180 failed to get temperature\n");
     return ERR_FLOAT;
   }
 
@@ -168,7 +168,7 @@ double readPressure() {
   // The parameter is the oversampling setting, from 0 to 3 (highest res, longest wait).
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
-  int pressureWait = pressure.startPressure(3)
+  int pressureWait = pressure.startPressure(3);
   if (pressureWait == 0) {
     Serial.println("ERROR: SFE_BMP180 unsuccessful temperature pressure start\n");
     return ERR_FLOAT;
