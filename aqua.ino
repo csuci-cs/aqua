@@ -81,7 +81,7 @@ void loop() {
   Vout = readO2Vout();
   //Serial.print(Vout);
   Serial.print("02(): ");
-  Serial.println(readConcentration());
+  Serial.println(read02Concentration());
 
   value= analogRead(AOUTpin); // reads the analaog value from the CO sensor's AOUT pin
   Serial.print("co(): ");
@@ -175,7 +175,7 @@ float readO2Vout() {
 }
 
 // for 02
-float readConcentration() {
+float read02Concentration() {
   // Vout samples are with reference to 3.3V
   float MeasuredVout = readO2Vout();
 
