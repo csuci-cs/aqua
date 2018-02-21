@@ -150,12 +150,6 @@ bool dataRecieve(void) {
     }
   }
 
-  for(int j=0; j<9; j++) {
-  //       Serial.print(data[j]);
-  //       Serial.print(" ");
-  }
-  //   Serial.println("");
-
   if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8]) {
     return false;
   }
