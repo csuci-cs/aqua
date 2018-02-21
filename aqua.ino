@@ -196,14 +196,13 @@ double fahrenheit(double celsius) {
 
 
 double getPressure() {
-  double T,P,p0,a;
+  double t, p;
 
-  // You must first get a temperature measurement to perform a pressure reading.
-
+  // First get a temperature measurement to perform a pressure reading.
+  
   // Start a temperature measurement:
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
-
   if (!pressure.startTemperature()) {
     Serial.println("error retrieving temperature measurement\n");
     return 0.0;
@@ -216,7 +215,7 @@ double getPressure() {
   // Note that the measurement is stored in the variable T.
   // Use '&T' to provide the address of T to the function.
   // Function returns 1 if successful, 0 if failure.
-  if (!pressure.getTemperature(T)) {
+  if (!pressure.getTemperature(t)) {
     Serial.println("error starting temperature measurement\n")
     return 0.0;
   }
@@ -239,9 +238,9 @@ double getPressure() {
   // Note also that the function requires the previous temperature measurement (T).
   // (If temperature is stable, you can do one temperature measurement for a number of pressure measurements.)
   // Function returns 1 if successful, 0 if failure.
-  if (!pressure.getPressure(P,T)) {
+  if (!pressure.getPressure(p,t)) {
     Serial.println("error retrieving pressure measurement\n");
     return 0.0;
   }
-  return(P);
+  return p;
 }
