@@ -39,7 +39,6 @@ unsigned char dataRevice[9];
 int temperature;
 int CO2PPM;
 
-//
 int value;
 
 void setup() {
@@ -75,7 +74,6 @@ void loop() {
     //Serial.println("");
   }
 
-
   float Vout =0;
   //Serial.print("Vout =");
 
@@ -84,11 +82,9 @@ void loop() {
   Serial.print("02(): ");
   Serial.println(readConcentration());
 
-
   value= analogRead(AOUTpin);//reads the analaog value from the CO sensor's AOUT pin
   Serial.print("co(): ");
   Serial.println(value);//prints the CO value
-
 
   Serial.println("\n");
 
@@ -114,7 +110,6 @@ void loop() {
   double a,P;
 
   // Get a new pressure reading:
-
   P = getPressure();
 
   // Show the relative altitude difference between
@@ -201,7 +196,6 @@ double fahrenheit(double celsius) {
 
 
 double getPressure() {
-  char status;
   double T,P,p0,a;
 
   // You must first get a temperature measurement to perform a pressure reading.
@@ -210,8 +204,7 @@ double getPressure() {
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
 
-  status = pressure.startTemperature();
-  if (status == 0) {
+  if (!pressure.startTemperature()) {
     Serial.println("error retrieving temperature measurement\n");
     return 0.0;
   }
@@ -223,8 +216,7 @@ double getPressure() {
   // Note that the measurement is stored in the variable T.
   // Use '&T' to provide the address of T to the function.
   // Function returns 1 if successful, 0 if failure.
-  status = pressure.getTemperature(T);
-  if (status == 0) {
+  if (!pressure.getTemperature(T)) {
     Serial.println("error starting temperature measurement\n")
     return 0.0;
   }
@@ -233,8 +225,7 @@ double getPressure() {
   // The parameter is the oversampling setting, from 0 to 3 (highest res, longest wait).
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
-  status = pressure.startPressure(3);
-  if (status == 0) {
+  if (!pressure.startPressure(3)) {
     Serial.println("error starting pressure measurement\n");
     return 0.0;
   }
@@ -248,8 +239,7 @@ double getPressure() {
   // Note also that the function requires the previous temperature measurement (T).
   // (If temperature is stable, you can do one temperature measurement for a number of pressure measurements.)
   // Function returns 1 if successful, 0 if failure.
-  status = pressure.getPressure(P,T);
-  if (status == 0) {
+  if (!pressure.getPressure(P,T)) {
     Serial.println("error retrieving pressure measurement\n");
     return 0.0;
   }
