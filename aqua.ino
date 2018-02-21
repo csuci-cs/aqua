@@ -199,17 +199,16 @@ double getPressure() {
   double t, p;
 
   // First get a temperature measurement to perform a pressure reading.
-  
+
   // Start a temperature measurement:
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
-  if (!pressure.startTemperature()) {
+  int temperatureWait = pressure.startTemperature()
+  if (temperatureWait == 0) {
     Serial.println("error retrieving temperature measurement\n");
     return 0.0;
   }
-
-  // Wait for the measurement to complete:
-  delay(status);
+  delay(temperatureWait);
 
   // Retrieve the completed temperature measurement:
   // Note that the measurement is stored in the variable T.
@@ -224,13 +223,12 @@ double getPressure() {
   // The parameter is the oversampling setting, from 0 to 3 (highest res, longest wait).
   // If request is successful, the number of ms to wait is returned.
   // If request is unsuccessful, 0 is returned.
-  if (!pressure.startPressure(3)) {
+  int pressureWait = pressure.startPressure(3)
+  if (pressureWait == 0) {
     Serial.println("error starting pressure measurement\n");
     return 0.0;
   }
-
-  // Wait for the measurement to complete:
-  delay(status);
+  delay(pressureWait);
 
   // Retrieve the completed pressure measurement:
   // Note that the measurement is stored in the variable P.
