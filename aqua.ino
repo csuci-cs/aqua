@@ -73,7 +73,6 @@ void loop() {
   Serial.print("humidity: ");
   Serial.println((float) DHT11.humidity, 2);
 
-
   Serial.print("temperature: ");
   Serial.println(DHT11.temperature, 2);
 
