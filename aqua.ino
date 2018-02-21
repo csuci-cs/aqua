@@ -10,8 +10,8 @@ double baselinePressure;
 
 #include <dht.h>
 #define DHT11PIN 4
-
 dht DHT11;
+
 const float ERR_FLOAT 3.4028235E+38;
 const int ERR_INT ~(1 << 31);
 
@@ -19,7 +19,6 @@ const int ERR_INT ~(1 << 31);
 SoftwareSerial s_serial(2, 3); // TX, RX
 // TODO sensor is unclear name... what is the actual sensor name?
 #define sensor s_serial
-
 const unsigned char cmd_get_sensor[] = {
     0xff, 0x01, 0x86, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x79
@@ -31,8 +30,6 @@ const int O2_PIN = A3;
 
 // mq7 (i.e. CO)
 const int AOUT_PIN = A0;
-
-unsigned char dataRevice[9];
 
 void setup() {
   sensor.begin(9600);
@@ -66,9 +63,7 @@ void loop() {
   Serial.print("co: ");
   Serial.println(readCO());
 
-  int chk = DHT11.read11(DHT11PIN);
-
-  switch (chk) {
+  switch (DHT11.read11(DHT11PIN)) {
     case 0: break; // only complain to the log if there is an error
     case -1: Serial.println("ERROR: DHT11 checksum error"); break;
     case -2: Serial.println("ERROR: DHT11 time out error"); break;
@@ -76,7 +71,7 @@ void loop() {
   }
 
   Serial.print("humidity: ");
-  Serial.println((float)DHT11.humidity, 2);
+  Serial.println((float) DHT11.humidity, 2);
 
 
   Serial.print("temperature: ");
@@ -86,9 +81,6 @@ void loop() {
   double currentAltitude = pressure.altitude(currentPressure, baselinePressure);
 
   Serial.print("altitude: ");
-  if (currentAltitude >= 0.0) {
-    Serial.print(" "); // add a space for positive numbers
-  }
   Serial.print(currentAltitude, 1);
 
   delay(10000);
