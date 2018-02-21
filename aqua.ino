@@ -98,9 +98,9 @@ void loop() {
   // Serial.println((float)DHT11.temperature, 2);
 
   Serial.print("temp(): ");
-  Serial.println(Fahrenheit(DHT11.temperature), 2);
 
   double a,P;
+  Serial.println(fahrenheit(DHT11.temperature), 2);
 
   // Get a new pressure reading:
   P = readPressure();
