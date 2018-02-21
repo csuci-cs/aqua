@@ -99,22 +99,21 @@ void loop() {
 
   Serial.print("temp(): ");
 
-  double a,P;
   Serial.println(fahrenheit(DHT11.temperature), 2);
 
   // Get a new pressure reading:
-  P = readPressure();
+  double currentPressure = readPressure();
 
   // Show the relative altitude difference between
   // the new reading and the baseline reading:
-  a = pressure.altitude(P,baseline);
+  double currentAltitude = pressure.altitude(currentPressure, baseline);
 
   Serial.print("altitude(): ");
-  if (a >= 0.0) {
+  if (currentAltitude >= 0.0) {
     Serial.print(" "); // add a space for positive numbers
   }
 
-  Serial.print(a, 1);
+  Serial.print(currentAltitude, 1);
   Serial.println(" meters");
   // if (a >= 0.0) Serial.print(" "); // add a space for positive numbers
   // Serial.print(a*3.28084,0);
