@@ -1,5 +1,4 @@
 /*
-  UNIV 492
   github.com/csuci-cs/aqua
 */
 
