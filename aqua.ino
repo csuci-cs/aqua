@@ -40,7 +40,6 @@ const int O2_PIN = A3;
 const int AOUT_PIN = A0;
 
 unsigned char dataRevice[9];
-int temperature;
 
 void setup() {
   sensor.begin(9600);
@@ -127,10 +126,8 @@ int readCO2() {
     return ERR_INT;
   }
 
-  temperature = (int)data[4] - 40;
   return (int)data[2] * 256 + (int)data[3];
 }
-
 
 // readCO
 // TODO: What are the units?
