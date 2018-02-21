@@ -40,8 +40,6 @@ unsigned char dataRevice[9];
 int temperature;
 int CO2PPM;
 
-int value;
-
 void setup() {
   sensor.begin(9600);
   Serial.begin(9600);
@@ -75,11 +73,6 @@ void loop() {
     //Serial.println("");
   }
 
-  float Vout =0;
-  //Serial.print("Vout =");
-
-  Vout = readO2Vout();
-  //Serial.print(Vout);
   Serial.print("02(): ");
   Serial.println(read02Concentration());
 
