@@ -110,7 +110,8 @@ void loop() {
   delay(10000);
 }
 
-//for CO2
+// readCO2
+// TODO: What are the units?
 int readCO2() {
   byte data[9];
   int i = 0;
@@ -139,6 +140,7 @@ int readCO2() {
 
 
 // readCO
+// TODO: What are the units?
 int readCO () {
   return analogRead(AOUT_PIN);
 }
@@ -167,6 +169,8 @@ float readO2() {
   return concentration * 100;
 }
 
+// readPressure
+// TODO: What are the units?
 double readPressure() {
   double t, p;
 
