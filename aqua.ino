@@ -21,7 +21,6 @@ dht DHT11;
 const float ERR_FLOAT 3.4028235E+38;
 const int ERR_INT ~(1 << 31);
 
-
 #include <SoftwareSerial.h>
 SoftwareSerial s_serial(2, 3); // TX, RX
 // TODO sensor is unclear name... what is the actual sensor name?
@@ -96,7 +95,6 @@ void loop() {
   if (currentAltitude >= 0.0) {
     Serial.print(" "); // add a space for positive numbers
   }
-
   Serial.print(currentAltitude, 1);
 
   delay(10000);
@@ -109,20 +107,20 @@ int readCO2() {
   int i = 0;
 
   // transmit command data
-  for(i = 0; i < sizeof(cmd_get_sensor); i++) {
+  for (i = 0; i < sizeof(cmd_get_sensor); i++) {
     sensor.write(cmd_get_sensor[i]);
   }
   delay(10);
   // begin reveiceing data
-  if(sensor.available()) {
-    while(sensor.available()) {
-      for(int i = 0; i < 9; i++) {
+  if (sensor.available()) {
+    while (sensor.available()) {
+      for (int i = 0; i < 9; i++) {
         data[i] = sensor.read();
       }
     }
   }
 
-  if((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8]) {
+  if ((i != 9) || (1 + (0xFF ^ (byte)(data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7]))) != data[8]) {
     return ERR_INT;
   }
 
@@ -141,7 +139,7 @@ float readO2() {
   // part 1: calculate voltageOut
   long sum = 0;
 
-  for(int i = 0; i < 32; i++) {
+  for (int i = 0; i < 32; i++) {
     sum += analogRead(O2_PIN);
   }
 
