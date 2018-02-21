@@ -74,7 +74,7 @@ void loop() {
   }
 
   Serial.print("02(): ");
-  Serial.println(read02Concentration());
+  Serial.println(readO2());
 
   Serial.print("co(): ");
   Serial.println(readCO());
@@ -175,9 +175,9 @@ float readO2Vout() {
   return sum * (VOLTAGE_REFERENCE / 1023.0);
 }
 
-// read02Concentration returns some value
+// readO2
 // TODO: What are the units?
-float read02Concentration() {
+float readO2() {
   // Vout samples are with reference to 3.3V
   float voltageOut = readO2Vout();
 
