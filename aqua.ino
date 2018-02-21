@@ -33,8 +33,8 @@ const unsigned char cmd_get_sensor[] = {
 const float VOLTAGE_REFERENCE = 3.3;
 const int O2_PIN = A3;
 
-//constant for mq7
-const int AOUTpin=0; //the AOUT pin of the CO sensor goes into analog pin A0 of the arduino
+// mq7 (i.e. CO)
+const int AOUT_PIN = A0;
 
 unsigned char dataRevice[9];
 int temperature;
@@ -83,9 +83,8 @@ void loop() {
   Serial.print("02(): ");
   Serial.println(read02Concentration());
 
-  value= analogRead(AOUTpin); // reads the analaog value from the CO sensor's AOUT pin
   Serial.print("co(): ");
-  Serial.println(value); // prints the CO value
+  Serial.println(readCO());
 
   Serial.println("\n");
 
@@ -160,8 +159,13 @@ bool dataRecieve(void) {
   return true;
 }
 
-// readO2Vout reads analog input and averages
-// the readings for better o2 reading
+
+// readCO
+int readCO () {
+  return analogRead(AOUT_PIN);
+}
+
+// readO2Vout
 // TODO: What are the units?
 float readO2Vout() {
   long sum = 0;
