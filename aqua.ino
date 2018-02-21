@@ -36,7 +36,7 @@ void setup() {
   Serial.begin(9600);
 
   if (!pressure.begin()) {
-    Serial.println("ERROR: BMP180 init fail (disconnected?)\n\n");
+    Serial.println("ERROR: BMP180 init fail (disconnected?)");
     while(1); // Pause forever.
   }
 
