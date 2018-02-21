@@ -123,6 +123,10 @@ void loop() {
   delay(10000);
 }
 
+double fahrenheit(double celsius) {
+  return 1.8 * celsius + 32;
+}
+
 //for CO2
 bool dataRecieve(void) {
   byte data[9];
@@ -182,11 +186,6 @@ float read02Concentration() {
   float Concentration_Percentage=Concentration*100;
   return Concentration_Percentage;
 }
-
-double fahrenheit(double celsius) {
-  return 1.8 * celsius + 32;
-}
-
 
 double readPressure() {
   double t, p;
