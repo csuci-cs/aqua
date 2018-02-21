@@ -21,7 +21,7 @@ dht DHT11;
 #define ERR_FLOAT 3.4028235E+38;
 
 #include <SoftwareSerial.h>
-SoftwareSerial s_serial(2, 3);      // TX, RX
+SoftwareSerial s_serial(2, 3); // TX, RX
 #define sensor s_serial
 
 const unsigned char cmd_get_sensor[] = {
@@ -29,12 +29,12 @@ const unsigned char cmd_get_sensor[] = {
     0x00, 0x00, 0x00, 0x79
 };
 
-//constant for O2
-const float VRefer = 3.3;       // voltage of adc reference
-const int pinAdc   = A3;
+// O2
+const float VOLTAGE_REFERENCE = 3.3;
+const int O2_PIN = A3;
 
 //constant for mq7
-const int AOUTpin=0;//the AOUT pin of the CO sensor goes into analog pin A0 of the arduino
+const int AOUTpin=0; //the AOUT pin of the CO sensor goes into analog pin A0 of the arduino
 
 unsigned char dataRevice[9];
 int temperature;
@@ -83,9 +83,9 @@ void loop() {
   Serial.print("02(): ");
   Serial.println(readConcentration());
 
-  value= analogRead(AOUTpin);//reads the analaog value from the CO sensor's AOUT pin
+  value= analogRead(AOUTpin); // reads the analaog value from the CO sensor's AOUT pin
   Serial.print("co(): ");
-  Serial.println(value);//prints the CO value
+  Serial.println(value); // prints the CO value
 
   Serial.println("\n");
 
@@ -102,8 +102,8 @@ void loop() {
   Serial.print("humidity(): ");
   Serial.println((float)DHT11.humidity, 2);
 
-  //Serial.print("temp(): ");
-  //Serial.println((float)DHT11.temperature, 2);
+  // Serial.print("temp(): ");
+  // Serial.println((float)DHT11.temperature, 2);
 
   Serial.print("temp(): ");
   Serial.println(Fahrenheit(DHT11.temperature), 2);
@@ -124,9 +124,9 @@ void loop() {
 
   Serial.print(a, 1);
   Serial.println(" meters");
-  //if (a >= 0.0) Serial.print(" "); // add a space for positive numbers
-  //Serial.print(a*3.28084,0);
-  //Serial.println(" feet");
+  // if (a >= 0.0) Serial.print(" "); // add a space for positive numbers
+  // Serial.print(a*3.28084,0);
+  // Serial.println(" feet");
 
   delay(10000);
 }
@@ -136,12 +136,12 @@ bool dataRecieve(void) {
   byte data[9];
   int i = 0;
 
-  //transmit command data
+  // transmit command data
   for(i = 0; i < sizeof(cmd_get_sensor); i++) {
     sensor.write(cmd_get_sensor[i]);
   }
   delay(10);
-  //begin reveiceing data
+  // begin reveiceing data
   if(sensor.available()) {
     while(sensor.available()) {
       for(int i = 0; i < 9; i++) {
@@ -160,17 +160,18 @@ bool dataRecieve(void) {
   return true;
 }
 
-//for 02
+// readO2Vout reads analog input and averages
+// the readings for better o2 reading
+// TODO: What are the units?
 float readO2Vout() {
   long sum = 0;
+
   for(int i = 0; i < 32; i++) {
-    sum += analogRead(pinAdc);
+    sum += analogRead(O2_PIN);
   }
 
   sum >>= 5;
-
-  float MeasuredVout = sum * (VRefer / 1023.0);
-  return MeasuredVout;
+  return sum * (VOLTAGE_REFERENCE / 1023.0);
 }
 
 // for 02
