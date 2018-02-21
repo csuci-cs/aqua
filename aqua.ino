@@ -12,7 +12,7 @@
 #include <Wire.h>
 // You will need to create an SFE_BMP180 object, here called "pressure":
 SFE_BMP180 pressure;
-double baseline; // baseline pressure
+double baselinePressure;
 
 #include <dht.h>
 #define DHT11PIN 4
@@ -58,11 +58,10 @@ void setup() {
   }
 
   // Get the baseline pressure:
-  baseline = readPressure();
-
+  baselinePressure = readPressure();
   Serial.print("baseline pressure: ");
-  Serial.print(baseline);
-  Serial.println(" mb");
+  Serial.print(baselinePressure);
+  Serial.println(" mb"); // What is mb? megabytes? Should this be m for meters?
 }
 
 void loop() {
@@ -97,12 +96,8 @@ void loop() {
   Serial.print("temp(): ");
   Serial.println(DHT11.temperature, 2);
 
-  // Get a new pressure reading:
   double currentPressure = readPressure();
-
-  // Show the relative altitude difference between
-  // the new reading and the baseline reading:
-  double currentAltitude = pressure.altitude(currentPressure, baseline);
+  double currentAltitude = pressure.altitude(currentPressure, baselinePressure);
 
   Serial.print("altitude(): ");
   if (currentAltitude >= 0.0) {
