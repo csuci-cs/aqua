@@ -77,12 +77,11 @@ void loop() {
 
   int chk = DHT11.read11(DHT11PIN);
 
-  Serial.print("Read sensor: ");
   switch (chk) {
-    case 0: Serial.println("OK"); break;
-    case -1: Serial.println("Checksum error"); break;
-    case -2: Serial.println("Time out error"); break;
-    default: Serial.println("Unknown error"); break;
+    case 0: break; // only complain to the log if there is an error
+    case -1: Serial.println("checksum error"); break;
+    case -2: Serial.println("time out error"); break;
+    default: Serial.println("unknown error"); break;
   }
 
   Serial.print("humidity(): ");
