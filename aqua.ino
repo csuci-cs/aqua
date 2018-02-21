@@ -48,11 +48,7 @@ void setup() {
   Serial.println("********************************************************");
   Serial.println();
 
-  if (pressure.begin()) {
-    Serial.println("BMP180 init success");
-  } else {
-    // Oops, something went wrong, this is usually a connection problem,
-    // see the comments at the top of this sketch for the proper connections.
+  if (!pressure.begin()) {
     Serial.println("BMP180 init fail (disconnected?)\n\n");
     while(1); // Pause forever.
   }
