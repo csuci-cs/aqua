@@ -59,7 +59,7 @@ void setup() {
   }
 
   // Get the baseline pressure:
-  baseline = getPressure();
+  baseline = readPressure();
 
   Serial.print("baseline pressure: ");
   Serial.print(baseline);
@@ -111,7 +111,7 @@ void loop() {
   double a,P;
 
   // Get a new pressure reading:
-  P = getPressure();
+  P = readPressure();
 
   // Show the relative altitude difference between
   // the new reading and the baseline reading:
@@ -196,7 +196,7 @@ double fahrenheit(double celsius) {
 }
 
 
-double getPressure() {
+double readPressure() {
   double t, p;
 
   // First get a temperature measurement to perform a pressure reading.
