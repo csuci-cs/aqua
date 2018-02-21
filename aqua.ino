@@ -44,12 +44,11 @@ void setup() {
   baselinePressure = readPressure();
 
   Serial.print("baseline pressure: ");
-  Serial.print(baselinePressure);
+  Serial.println(baselinePressure);
+  Serial.print("\n\n");
 }
 
 void loop() {
-  Serial.println("\n");
-
   int co2 = readCO2();
   if (co2 != ERR_INT) {
     Serial.println("ERROR: some error");
@@ -79,9 +78,13 @@ void loop() {
   double currentPressure = readPressure();
   double currentAltitude = pressure.altitude(currentPressure, baselinePressure);
 
-  Serial.print("altitude: ");
-  Serial.print(currentAltitude, 1);
+  Serial.print("pressure: ");
+  Serial.println(currentPressure);
 
+  Serial.print("altitude: ");
+  Serial.println(currentAltitude, 1);
+
+  Serial.print("\n\n");
   delay(10000);
 }
 
