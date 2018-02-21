@@ -21,7 +21,6 @@ dht DHT11;
 const float ERR_FLOAT 3.4028235E+38;
 const int ERR_INT ~(1 << 31);
 
-
 #include <SoftwareSerial.h>
 SoftwareSerial s_serial(2, 3); // TX, RX
 // TODO sensor is unclear name... what is the actual sensor name?
@@ -96,7 +95,6 @@ void loop() {
   if (currentAltitude >= 0.0) {
     Serial.print(" "); // add a space for positive numbers
   }
-
   Serial.print(currentAltitude, 1);
 
   delay(10000);
