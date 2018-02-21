@@ -175,16 +175,15 @@ float readO2Vout() {
   return sum * (VOLTAGE_REFERENCE / 1023.0);
 }
 
-// for 02
+// read02Concentration returns some value
+// TODO: What are the units?
 float read02Concentration() {
   // Vout samples are with reference to 3.3V
-  float MeasuredVout = readO2Vout();
+  float voltageOut = readO2Vout();
 
-  //float Concentration = FmultiMap(MeasuredVout, VoutArray,O2ConArray, 6);
-  //when its output voltage is 2.0V,
-  float Concentration = MeasuredVout * 0.21 / 2.0;
-  float Concentration_Percentage=Concentration*100;
-  return Concentration_Percentage;
+  // when its output voltage is 2.0V,
+  float concentration = voltageOut * 0.21 / 2.0;
+  return concentration * 100;
 }
 
 double readPressure() {
