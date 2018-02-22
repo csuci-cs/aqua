@@ -51,10 +51,11 @@ void setup() {
 void loop() {
   int co2 = readCO2();
   if (co2 != ERR_INT) {
-    Serial.println("ERROR: some error"); // TODO needs descriptive error message
+    Serial.print("co2: ");
+    Serial.println(co2);
+  } else {
+    Serial.println("ERROR: co2 some error"); // TODO needs descriptive error message
   }
-  Serial.print("co2: ");
-  Serial.println(co2);
 
   Serial.print("o2: ");
   Serial.println(readO2());
@@ -76,13 +77,15 @@ void loop() {
   Serial.println(DHT11.temperature, 2);
 
   double currentPressure = readPressure();
-  double currentAltitude = pressure.altitude(currentPressure, baselinePressure);
-
-  Serial.print("pressure: ");
-  Serial.println(currentPressure);
-
-  Serial.print("altitude: ");
-  Serial.println(currentAltitude, 1);
+  if (currentPressure != ERR_FLOAT) {
+    double currentAltitude = pressure.altitude(currentPressure, baselinePressure);
+    Serial.print("pressure: ");
+    Serial.println(currentPressure);
+    Serial.print("altitude: ");
+    Serial.println(currentAltitude, 1);
+  } // else {
+    // Serial.println("ERROR: pressure some error"); // error printed in readPressure function
+  // }
 
   Serial.print("\n\n");
   delay(10000);
@@ -144,7 +147,7 @@ float readO2() {
 // readPressure
 // TODO: What are the units?
 double readPressure() {
-  double t, p;
+  double temp, pres;
 
   // First get a temperature measurement to perform a pressure reading.
 
@@ -162,7 +165,7 @@ double readPressure() {
   // Note that the measurement is stored in the variable T.
   // Use '&T' to provide the address of T to the function.
   // Function returns 1 if successful, 0 if failure.
-  if (!pressure.getTemperature(t)) {
+  if (!pressure.getTemperature(temp)) {
     Serial.println("ERROR: SFE_BMP180 failed to get temperature\n");
     return ERR_FLOAT;
   }
@@ -184,9 +187,9 @@ double readPressure() {
   // Note also that the function requires the previous temperature measurement (T).
   // (If temperature is stable, you can do one temperature measurement for a number of pressure measurements.)
   // Function returns 1 if successful, 0 if failure.
-  if (!pressure.getPressure(p,t)) {
+  if (!pressure.getPressure(pres,temp)) {
     Serial.println("ERROR: SFE_BMP180 failed to get pressure\n");
     return ERR_FLOAT;
   }
-  return p;
+  return pres;
 }
