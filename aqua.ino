@@ -109,24 +109,23 @@ void loop() {
 }
 
 #define TOTAL_DISPLAY_TIME 10000
-#define DISPLAY_COUNT 4
+#define DISPLAY_COUNT 7
 
 void displayCycle(int co2, int co, float o2, double pressure, double altitude, double humidity, double temperature) {
-  lcd.print("CO2:"); lcd.print(co2); lcd.print(", ");
+  lcd.print("CO2:"); lcd.print(co2);
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
   lcd.print("CO:"); lcd.print(co);
-  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT);
-  lcd.autoscroll();
-  lcd.print("O2:"); lcd.print(o2); lcd.print(", ");
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
+  lcd.print("O2:"); lcd.print(o2);
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
   lcd.print("pr:"); lcd.print(pressure);
-  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT);
-  lcd.autoscroll();
-  lcd.print("alt:"); lcd.print(altitude); lcd.print(", ");
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
+  lcd.print("alt:"); lcd.print(altitude);
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
   lcd.print("hum:"); lcd.print(humidity);
-  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT);
-  lcd.autoscroll();
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
   lcd.print("temp:"); lcd.print(temperature);
-  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT);
-  lcd.autoscroll();
+  delay(TOTAL_DISPLAY_TIME / DISPLAY_COUNT); lcd.clear();
 }
 
 // readCO2
