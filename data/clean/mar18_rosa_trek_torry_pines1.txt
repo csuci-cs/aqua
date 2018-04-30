@@ -3717,7 +3717,7 @@
 2018-03-18 08:43:53.005778 The concentration of C4H10 is 2083.40 ppm
 2018-03-18 08:43:53.051214 The concentration of CH4 is 1030929.25 ppm
 2018-03-18 08:43:53.092336 The concentration of H2 is 15.45 ppm
-
+2018-03-18 08:43:57.365376 co2: ERROR
 2018-03-18 08:43:54.889779 dust concentration = 0.62 pcs/0.01cf
 
 2018-03-18 08:43:56.868638 o2: 14.23
